@@ -19,11 +19,7 @@ A separate surface is generated using the phase of H(z) as the Z-axis. This visu
 
 ### 3. Unit Circle Slice
 
-The response along the unit circle is extracted using:
-
-`z = e^(jω)`
-
-This corresponds to the DTFT frequency response for systems where the corresponding transform conditions are satisfied.
+The response along the unit circle corresponds to the DTFT frequency response for systems where the corresponding transform conditions are satisfied.
 
 The unit circle slice is displayed separately with magnitude and phase.
 
@@ -38,7 +34,3 @@ The unit circle slice is displayed separately with magnitude and phase.
 * Constant-radius response slice
 * DTFT response extracted along the unit circle
 * Magnitude and phase overlay for the unit circle response
-
-Currently implemented as a MATLAB visualisation script.
-
-The project is intended primarily as an educational and exploratory tool for studying transfer functions, complex frequency response, Z-transform behaviour, and the relationship between the Z-transform and DTFT representations.
